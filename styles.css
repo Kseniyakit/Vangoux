@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.logo__LogoSmallSolid {
+  height: 50px;
+  width: 50px;
+}
+.logo__VanGouxLabel {
+  color: #1968FC;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.headline {
+  width: 100%;
+}
+.headline__content {
+  margin-left: 80px;
+}
+.headline__HeadlineText {
+  max-width: 400px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+.headline__SubheadlineText {
+  font-size: 20px;
+  line-height: 40px;
+  max-width: 480px;
+}
+.headline__MenuCTAButton {
+  background-color: #1968FC;
+  width: 300px;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.headline__IllustrationMainMobile {
+  max-width: 599px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+  color: #11223F;
+}
+
+.page {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .page .page {
+    max-width: 1024px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.background {
+  background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
