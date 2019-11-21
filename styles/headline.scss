@@ -1,8 +1,11 @@
 .headline{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
     
     &__content{
-        margin-left: 80px;
+        margin: 0 80px;
     }
     &__HeadlineText{
         max-width: 400px;
@@ -32,6 +35,7 @@ cursor: pointer;
      max-width: 100%;
         display: block;
         height: auto;
-        margin: 80px 20px 0;
+        margin: 0;
+        padding: 80px 20px 0 20px;
     }
 }
