@@ -53,9 +53,28 @@
   cursor: pointer;
 }
 .headline__IllustrationMainMobile {
-  max-width: 599px;
-  margin-top: 80px;
-  margin-left: 20px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 80px 20px 0;
+}
+
+.PleaseVisitDesctopSiteSection {
+  width: 100%;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png");
+  height: 180px;
+  display: flex;
+  align-items: center;
+}
+.PleaseVisitDesctopSiteSection__PleaseVisitSiteBlurb {
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  max-width: 520px;
+  text-align: center;
+  padding: 30px 60px;
 }
 
 body {
