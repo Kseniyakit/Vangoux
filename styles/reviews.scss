@@ -8,10 +8,9 @@
         display: flex;
         flex-direction: column;
         max-width: 540px;
-        height: 280px;
         background-color: $text-color-white;
-        margin: 50px;
         padding: 40px;
+      margin: 50px 50px 0;
         &__author{
             display: flex;
                 }
@@ -19,8 +18,50 @@
   
 }
 .review{
+    position: relative;
     &__author{
         display: flex;
+            }
+            &__image{
+                max-width: 100px;
+height: 100px;
+            }
+            &__author-info{
+                margin-left: 20px;
+                margin-top: 20px;
+            
+                display: flex;
+                flex-direction: column;
+            }
+            &__author-name{
+                margin: 0;
+                font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+            }
+            &__author-description{
+                margin: 0;
+                font-weight: 600;
+font-size: 14px;
+line-height: 30px;
+opacity: 0.8;
+color: $text-color-blue;
+            }
+            &__quote{
+                max-width: 60px;
+                height: 46px;
+                position: absolute;
+                top: 40px;
+                right: 40px;
+
+            }
+            &__text{
+                font-size: 16px;
+line-height: 30px;
+margin: 0;
+margin-top: 40px;
+margin-bottom: 40px;
+
             }
 
 }
