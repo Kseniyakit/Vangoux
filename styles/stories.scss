@@ -1,8 +1,8 @@
 .stories{
     display: flex;
     flex-direction: column;
-    padding: 60px 60px 0;
-    background-color: $background-color-lightgray;
+    padding: 100px 60px 0;
+    background-color: $text-color-white;
     @include for-large-up {
         padding-left: 160px;
        
@@ -39,7 +39,6 @@
 .story-card{
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
     @include for-large-up {
        &:last-child{
            margin-left: 150px;
@@ -59,6 +58,9 @@ margin: 0;
         font-size: 16px;
 line-height: 30px;
 color: $text-color-darkblack;
+&:last-child{
+    margin-bottom: 0;
+}
     }
     &__image{
         width: 40px;

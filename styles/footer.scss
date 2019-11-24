@@ -1,5 +1,5 @@
 .page-footer{
- background-color: $background-color-lightgray;
+ background-color: $text-color-white;
  padding: 101px 40px 90px;
  @include for-large-up {
    padding-left: 160px;
@@ -52,12 +52,16 @@
         height: 50px;
     }
     &__text{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-weight: 600;
 font-size: 14px;
 line-height: 20px;
 color: #1968FC;
 margin: 0;
-padding: 15px;
 background-color: $background-color-lightblue;
     }
 }
