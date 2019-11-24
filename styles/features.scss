@@ -63,11 +63,12 @@ margin-right: 74px;
        background-color: $background-color-gray;
    }
    &__image{
-       width: 80px;
-       height: 80px;
-       @include for-large-up {
-        width: 120px;
+       /* width: 80px;
+       height: 80px; */
+       width: 120px;
         height: 120px;
+       @include for-large-up {
+        
    }
 }
    &__title{
@@ -75,11 +76,12 @@ margin-right: 74px;
     font-size: 20px;
     line-height: 40px;
     margin-left: 20px;
+    display:flex;
+       align-items: center;
     @include for-large-up {
        line-height: 30px;
        margin: 20px;
-       display:flex;
-       align-items: center;
+       
    }
    }
    &__text{

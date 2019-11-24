@@ -1,10 +1,12 @@
 .page-header{
     display: flex;
     align-items: center;
-    margin-left: 80px;
+    padding-left: 80px;
     margin-top: 40px;
+    margin-bottom: 80px;
     @include for-large-up {
-    margin-left: 160px;
+        margin-bottom: 0;
+    padding-left: 160px;
     }
    
 &__logo{
