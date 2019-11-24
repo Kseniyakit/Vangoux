@@ -23,7 +23,8 @@ font-size: 40px;
 line-height: 60px;
 @include for-large-up {
     margin: 0;
-    max-width: 550px;
+    max-width: 590px;
+    letter-spacing: 1px;
 }
 
     }
