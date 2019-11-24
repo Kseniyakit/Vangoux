@@ -75,12 +75,22 @@ margin-right: 74px;
     font-size: 20px;
     line-height: 40px;
     margin-left: 20px;
+    @include for-large-up {
+       line-height: 30px;
+       margin: 20px;
+       display:flex;
+       align-items: center;
+   }
    }
    &__text{
     font-size: 16px;
     line-height: 30px;
     margin: 0;
     padding: 30px 40px;
+    @include for-large-up {
+       margin: 40px;
+       padding: 0;
+    }
    }
    &__decoration{
     width: 25px;

@@ -435,11 +435,25 @@
   line-height: 40px;
   margin-left: 20px;
 }
+@media screen and (min-width: 1024px) {
+  .feature__title {
+    line-height: 30px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+  }
+}
 .feature__text {
   font-size: 16px;
   line-height: 30px;
   margin: 0;
   padding: 30px 40px;
+}
+@media screen and (min-width: 1024px) {
+  .feature__text {
+    margin: 40px;
+    padding: 0;
+  }
 }
 .feature__decoration {
   width: 25px;
