@@ -25,6 +25,7 @@
         display: none;
         @include for-large-up {
             display: block;
+            margin-left: 20px;
          background-color: $text-color-blue;
          width: 180px;
          height: 50px;
