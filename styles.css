@@ -97,12 +97,12 @@
   font-size: 40px;
   line-height: 60px;
   margin: 0;
+  letter-spacing: 1px;
 }
 @media screen and (min-width: 1024px) {
   .headline__title {
     margin: 0;
     width: 550px;
-    letter-spacing: 1px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -125,7 +125,7 @@
   margin-top: 40px;
   padding: 0 60px;
   font-size: 14px;
-  max-width: 300px;
+  width: 300px;
   height: 50px;
   color: #fff;
   display: flex;
@@ -138,8 +138,8 @@
 }
 .headline__illustration {
   max-width: 599px;
+  height: 502px;
   display: block;
-  height: auto;
   margin: 0;
   padding: 80px 20px 0 20px;
 }
@@ -148,7 +148,7 @@
     position: absolute;
     padding: 0;
     top: 280px;
-    right: 160px;
+    right: 100px;
     margin-left: auto;
     z-index: 0;
   }
@@ -184,7 +184,7 @@
 @media screen and (min-width: 1024px) {
   .reviews {
     flex-direction: row;
-    margin-left: 160px;
+    padding-left: 160px;
   }
 }
 .reviews__review {
@@ -212,6 +212,11 @@
 
 .review {
   position: relative;
+}
+@media screen and (max-width: 1023px) {
+  .review {
+    height: 290px;
+  }
 }
 .review__author {
   display: flex;
@@ -262,7 +267,8 @@
 }
 @media screen and (min-width: 1024px) {
   .workflow {
-    margin-left: 160px;
+    margin-left: 0;
+    padding-left: 160px;
   }
 }
 .workflow__title {
@@ -407,7 +413,7 @@
   display: flex;
   flex-direction: column;
   max-width: 520px;
-  height: auto;
+  height: 260px;
   margin-bottom: 60px;
 }
 @media screen and (min-width: 1024px) {
@@ -461,7 +467,7 @@
   font-size: 16px;
   line-height: 30px;
   margin: 0;
-  padding: 30px 40px;
+  padding: 40px;
 }
 @media screen and (min-width: 1024px) {
   .feature__text {
@@ -603,7 +609,7 @@
 }
 
 .purposes {
-  margin: 120px 60px 0 60px;
+  padding: 120px 60px 0 60px;
   display: flex;
   flex-direction: column;
 }

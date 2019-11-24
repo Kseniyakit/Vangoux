@@ -4,7 +4,7 @@
     flex-direction: column;
     @include for-large-up {
     flex-direction: row;
-    margin-left: 160px;
+    padding-left: 160px;
     }
    
     &__review{
@@ -31,6 +31,9 @@
 }
 .review{
     position: relative;
+    @include for-large-down {
+        height: 290px;
+           }
     &__author{
         display: flex;
             }

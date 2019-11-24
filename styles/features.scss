@@ -34,7 +34,7 @@
         display: flex;
         flex-direction: column;
         max-width: 520px;
-        height: auto;
+       height: 260px;
         margin-bottom: 60px;
         @include for-large-up {
             width: 320px;
@@ -70,6 +70,7 @@ margin-right: 74px;
        @include for-large-up {
         
    }
+ 
 }
    &__title{
     font-weight: 600;
@@ -85,10 +86,11 @@ margin-right: 74px;
    }
    }
    &__text{
+    
     font-size: 16px;
     line-height: 30px;
     margin: 0;
-    padding: 30px 40px;
+    padding: 40px;
     @include for-large-up {
        margin: 40px;
        padding: 0;
