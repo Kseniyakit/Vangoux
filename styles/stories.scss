@@ -1,6 +1,7 @@
 .stories{
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
     padding: 100px 60px 0;
     background-color: $text-color-white;
     @include for-large-up {
