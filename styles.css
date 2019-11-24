@@ -846,8 +846,7 @@
 }
 
 .page-footer {
-  background-color: #FBFBFB;
-  margin-top: 100px;
+  padding-top: 100px;
   padding-left: 40px;
   height: 130px;
   display: flex;
@@ -862,6 +861,7 @@
 .page-footer__container {
   display: flex;
   align-items: center;
+  background-color: #FBFBFB;
 }
 .page-footer__navigation {
   display: none;
