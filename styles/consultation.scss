@@ -18,7 +18,7 @@ color: $text-color-white;
 margin: 0;
 text-transform: uppercase;
 display: block;
-max-width: 645px;
+max-width: 650px;
 margin:0;
     }
     &__line{
@@ -37,8 +37,11 @@ margin:0;
 line-height: 40px;
 color: $text-color-white;
 margin: 0;
-width: 600px;
+
 z-index: 1;
+@include for-large-up {
+    width: 600px;
+}
     }
     &__button{
         width: 320px;

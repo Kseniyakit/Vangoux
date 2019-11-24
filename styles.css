@@ -699,7 +699,7 @@
   margin: 0;
   text-transform: uppercase;
   display: block;
-  max-width: 645px;
+  max-width: 650px;
   margin: 0;
 }
 .consultation__line {
@@ -720,8 +720,12 @@
   line-height: 40px;
   color: #fff;
   margin: 0;
-  width: 600px;
   z-index: 1;
+}
+@media screen and (min-width: 1024px) {
+  .consultation__description {
+    width: 600px;
+  }
 }
 .consultation__button {
   width: 320px;
