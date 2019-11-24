@@ -17,6 +17,9 @@ font-weight: 700;
 color: $text-color-white;
 margin: 0;
 text-transform: uppercase;
+display: block;
+max-width: 645px;
+margin:0;
     }
     &__line{
         width: 80px;
@@ -34,7 +37,7 @@ text-transform: uppercase;
 line-height: 40px;
 color: $text-color-white;
 margin: 0;
-max-width: 640px;
+width: 600px;
 z-index: 1;
     }
     &__button{
